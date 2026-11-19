@@ -13,7 +13,7 @@
 
 - Two machines. The laptop downloads the kaikki.org extracts and builds `lexico.db` (`python -m lexico build`). The Raspberry Pi (2B or 3B, 1 GB RAM) only reads the finished database.
 - No LLM anywhere. Everything the Pi prints comes from the database or from a fixed rule in the code.
-- Runtime code (everything the Pi runs) uses the Python 3.9+ standard library only: `sqlite3`, `http.server`, `argparse`. No third-party packages on the Pi.
+- Runtime code (everything the Pi runs) uses the Python 3.13+ standard library only: `sqlite3`, `http.server`, `argparse`. No third-party packages on the Pi.
 - Languages: pt, es, de, fr, en.
 - Sources, both from kaikki.org (Wiktextract):
   - English Wiktionary extracts: etymology templates, morphemes, syllables, inflected forms, cognates. Glosses in English.
