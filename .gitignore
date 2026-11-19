@@ -2,3 +2,13 @@
 *.db
 *.db-journal
 *.db.part
+
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.venv/
+uv.lock
