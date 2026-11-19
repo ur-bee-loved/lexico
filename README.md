@@ -27,7 +27,7 @@ Fonte: en.wiktionary; pt.wiktionary (via kaikki.org, base de 2026-11-08)
 ## Two machines
 
 The laptop downloads and processes the data; the Pi only reads the finished
-database. Runtime code uses the Python 3.9+ standard library only.
+database. Runtime code uses the Python 3.13+ standard library only.
 
 ### Laptop: build the database
 
